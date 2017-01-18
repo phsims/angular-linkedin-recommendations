@@ -15,7 +15,7 @@
           return $http({
               method: 'JSONP',
               url: 'https://api.linkedin.com/v1/people/~:(recommendations-received)?oauth2_access_token=[ACCESS TOKEN]&alt=json-in-script&callback=JSON_CALLBACK',
-              cache: 'true',
+              cache: 'false',
               params: {
                   format: 'jsonp',
                   json_callback: 'JSON_CALLBACK'
