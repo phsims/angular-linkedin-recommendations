@@ -1,7 +1,7 @@
 # angular-linkedin-recommendations
 Linkedin recommendations for AngularJS
 
-I used https://apigee.com/ to log into Linkedin and get an ACCESS TOKEN.
+I used https://apigee.com/console/linkedin to log into Linkedin and get an ACCESS TOKEN.
 
 Choose:
 API = Linkedin
